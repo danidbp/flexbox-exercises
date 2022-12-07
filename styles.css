@@ -10,8 +10,12 @@ body {
 .nav-items ul {
   max-width: 700px;
   list-style: none;
-  padding: 0;
+  padding: 0.5em;
   margin: 0;
+  border: 1px solid gray;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .nav-items a:link,
@@ -33,6 +37,9 @@ body {
   border-radius: 10px;
   width: 400px;
   height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .child {
@@ -51,6 +58,12 @@ body {
   height: 150px;
   width: 150px;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.child-2 {
+  flex: 1;
 }
 
 /*  ---- end exercise 3 ----  */
@@ -64,10 +77,13 @@ body {
   border: 1px solid #4d7298;
   border-radius: 10px;
   width: 500px;
+  display: flex;
 }
 
 .card-text-wrapper {
   padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-img {
@@ -80,19 +96,24 @@ body {
   padding: 10px;
   font-size: 16px;
   border-radius: 10px;
+  margin-top: 2rem;
 }
 /*  ---- end exercise 4 ----  */
 
 /*  ---- start exercise 5 ----  */
 .tags {
   width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .tags li {
-  padding: 6px;
+  padding: 6px 16px;
   margin: 6px;
   background-color: rgb(111, 41, 97);
   color: #fff;
   border-radius: 10px;
+  list-style: none;
 }
 /*  ---- end exercise 5 ----  */
