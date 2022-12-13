@@ -15,7 +15,7 @@ body {
   border: 1px solid gray;
   border-radius: 10px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .nav-items a:link,
@@ -90,13 +90,16 @@ body {
   border-radius: 10px;
 }
 
+.card-text-wrapper > :nth-child(3) {
+  flex: 1;
+}
+
 .reserve-btn {
   background-color: #4d7298;
   color: #fff;
   padding: 10px;
   font-size: 16px;
   border-radius: 10px;
-  margin-top: 2rem;
 }
 /*  ---- end exercise 4 ----  */
 
